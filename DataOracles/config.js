@@ -1,0 +1,2 @@
+const oracleAddress="0xB4189d9b13CC3aC8036Cc49e676bAC1f01Bef3D0";
+const consumerAddress="0x75AFc95733C0306D20053B493991AB3421b5DdDB";
