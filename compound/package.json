@@ -1,0 +1,14 @@
+{
+  "name": "compound",
+  "version": "1.0.0",
+  "description": "compound smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jaydip patel",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0"
+  }
+}
