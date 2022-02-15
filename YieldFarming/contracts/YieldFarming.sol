@@ -63,12 +63,12 @@ contract YieldFarmer is ICallee, DydxFlashloanBase {
 
         address compAddress = getCompAddress();
         IERC20 comp = IERC20(compAddress);
-        uint256 compBalance = comp.balanceOf(address(this));
+        uint compBalance = comp.balanceOf( address(this));
         comp.transfer(msg.sender, compBalance);
 
         IERC20 token = IERC20(_token);
-        uint256 tokenBalance = token.balanceOf(address(this));
-        token.transfer(msg.sender, tokenBalance);
+        uint tokenBalance = token.balanceOf(address(this));
+        token.transfer(msg.sender, tokenBalance); 
     }
 
     function callFunction(
